@@ -1,0 +1,18 @@
+/**Items in Store:
+Earbuds, 3
+Jumper cables, 2
+Candy,1
+Water, 3
+Juice, 6
+**/
+
+Create table items (id integer primary key, name text, price integer); 
+
+Insert into items values (1, "earbuds", 3);
+INSERT INTO items values (2, "jumper cables", 2);
+INSERT INTO ITEMS VALUES (3, "candy", 1); 
+INSERT INTO ITEMS VALUES(4, "water", 3); 
+INSERT INTO ITEMS VALUES (5, "juice", 6);
+
+SELECT * FROM ITEMS WHERE PRICE ORDER BY PRICE;
+SELECT * FROM ITEMS WHERE PRICE >1
