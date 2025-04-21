@@ -1,0 +1,32 @@
+SELECT *
+FROM superstore
+ORDER BY item_name, price DESC;
+
+SELECT AVG(price)
+FROM superstore
+;
+
+SELECT SUM(price)
+FROM superstore;
+
+SELECT MIN(price)
+FROM superstore;
+
+SELECT MAX(price)
+FROM superstore; 
+
+SELECT COUNT(price)
+FROM superstore;
+
+SELECT  item_name, price
+FROM superstore
+ORDER BY 'Kitchen Supplies';
+
+SELECT item_name, stock_quantity
+FROM superstore
+WHERE item_name > 40;
+
+SELECT SUM(stock_quantity)
+FROM superstore
+ORDER BY 'Air purifier';
+
